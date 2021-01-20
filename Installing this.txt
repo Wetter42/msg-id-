@@ -1,0 +1,19 @@
+You should be able to install this like any other server resource.  
+Once installed, and the resource loaded, simply type /msg (playerid) (Contents of message)
+
+I've covered the following use cases of if something goes wrong:
+1. If there's no playerID or actual message specified
+2. If the specified playerID isn't an actual number
+3. If you're sending a message to yourself
+4. If the playerID doesn't belong to an actual player
+
+Once all of the conditions pass, and the message is sent to the player, it gets logged in the server as well (beeg brother baybeee).  This way, if players are conspiring against you, you'll know! :)
+[The only thing I DON'T know how to do is to log this to its own independent file!]
+
+I've also made an /r aka a /reply command so that you can reply to the last person that's sent you a message with ease.  
+example:
+/r Yeah, I like wetter42's plane modifications as well!
+
+
+
+Anyways, I hope you enjoy this simple yet effective script (even though it's a lot easier to /msg (playername) instead of /msg (id), I'm still working on that, btw)
